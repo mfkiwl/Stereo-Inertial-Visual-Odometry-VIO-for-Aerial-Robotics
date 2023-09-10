@@ -25,6 +25,19 @@ My code repository is meticulously organized, with the following key components:
 ## Mathematical Derivation
 One of the notable achievements was proving an assertion from the lecture materials. I showcased that a unit quaternion, constructed from a unit vector `ω ∈ R3` and an angle `θ`, and processed through the function `R = H(u_0, u)`, results in a rotation matrix `R ∈ SO(3)`. This matrix aligns with the one acquired through the Rodrigues Formula: `R = exp(ω^θ)`. This mathematical consistency affirmed the theoretical robustness of our strategy.
 
+![attitude and position of quad](https://github.com/Saibernard/Stereo-Inertial-Visual-Odometry-VIO-for-Aerial-Robotics/assets/112599512/1ca02279-3282-4736-9676-80e2414d5b8b)
+
+![velocity of quad](https://github.com/Saibernard/Stereo-Inertial-Visual-Odometry-VIO-for-Aerial-Robotics/assets/112599512/07c34054-d1fb-4529-b66b-a57fc459a73a)
+
+![accelerometer bias](https://github.com/Saibernard/Stereo-Inertial-Visual-Odometry-VIO-for-Aerial-Robotics/assets/112599512/0876fb52-248b-41e9-83a7-d5ce32c2c862)
+
+![gyroscope bias](https://github.com/Saibernard/Stereo-Inertial-Visual-Odometry-VIO-for-Aerial-Robotics/assets/112599512/a7c3d408-12cd-422c-9a44-7fba7059e740)
+
+![g_vector](https://github.com/Saibernard/Stereo-Inertial-Visual-Odometry-VIO-for-Aerial-Robotics/assets/112599512/28d80e95-0dd6-48ca-a88d-d340a8d0fb0d)
+
+![trace of covariance matrix](https://github.com/Saibernard/Stereo-Inertial-Visual-Odometry-VIO-for-Aerial-Robotics/assets/112599512/32b31b39-3122-44f8-b457-f501739bf5a5)
+
+
 ## Conclusion
 Embarking on the journey of amalgamating data from stereo cameras and IMU for a quadrotor's pose estimation proved both challenging and enlightening. My adept application of the ESKF algorithm, fortified by rigorous mathematical validation, underlined the potency of merging visual and inertial data for pinpoint pose estimation. This endeavor is promising for real-world implementations, particularly in situations necessitating steadfast and real-time aerial robotic navigation.
 
